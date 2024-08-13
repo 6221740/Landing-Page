@@ -1,0 +1,38 @@
+body , footer {
+margin: 0;
+padding: 0;
+
+}
+
+
+.header, footer {
+background-color: #1f2937;
+}
+
+.header{
+display: flex;
+margin: 0px;
+padding: 15px;
+align-items: center;
+gap: 20px;
+justify-content: space-between;
+}
+.Logo{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+color: #f9faf8;
+}
+
+.links{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #e5e7eb; 
+display: flex;
+gap: 20px;
+list-style-type: none;
+}
+
+a , a:hover , a:visited , a:active{
+text-decoration: none;
+color: #e5e7eb;
+}
