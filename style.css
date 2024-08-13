@@ -1,26 +1,27 @@
 body , footer {
 margin: 0;
 padding: 0;
-
 }
-
-
-.header, footer {
+.header, footer, .Middle{
 background-color: #1f2937;
 }
 
 .header{
 display: flex;
 margin: 0px;
-padding: 15px;
+padding-top: 15px;
+padding-bottom: 0;
 align-items: center;
 gap: 20px;
 justify-content: space-between;
+
 }
 .Logo{
 font-family: Arial, Helvetica, sans-serif;
 font-size: 24px;
 color: #f9faf8;
+font-weight: bold;
+margin-left: 30px;
 }
 
 .links{
@@ -35,4 +36,35 @@ list-style-type: none;
 a , a:hover , a:visited , a:active{
 text-decoration: none;
 color: #e5e7eb;
+}
+
+
+.Middle{
+color: white;
+padding-top: 100px;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+padding-bottom: 100px;
+align-items: center;
+
+
+}
+
+.website{
+font-weight: bolder;
+font-size: 48px;
+display: flex;
+padding: 0;
+margin-left: 30px;
+
+}
+
+.text{
+display: flex;
+align-items: flex-end;
+padding: 0;
+margin: 0;
+
+
+
 }
