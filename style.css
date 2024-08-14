@@ -152,4 +152,39 @@ button {
     }
 
 
+.random{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 36px;
+font-weight: bolder;
+margin-bottom: 60px;
+}
 
+
+.white{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+
+
+.image{
+border: solid blue;
+align-items: center;
+display: flex;
+height: 150px;
+width: 150px;
+border-radius: 20px;
+}
+
+.info{
+font-family: Arial, Helvetica, sans-serif;
+color: grey;
+font-size: 15px;
+width: 150px;
+text-align: center;
+
+
+}
