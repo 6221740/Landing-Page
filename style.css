@@ -39,7 +39,6 @@ margin-right: 140px;
 }
 
 a , a:hover , a:visited , a:active{
-text-decoration: none;
 color: #e5e7eb;
 }
 
@@ -81,7 +80,6 @@ transform: translateX(-30px);
 
 .img{
     justify-content: space-around;
-    background-color: rgb(66, 66, 66);
     padding: 10px;
     padding-bottom: 50px;
     display:flex;
@@ -166,7 +164,7 @@ padding-bottom: 100px;
 }
 
 .image{
-border: solid blue;
+border: solid black;
 align-items: center;
 display: flex;
 height: 150px;
