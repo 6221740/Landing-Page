@@ -1,0 +1,249 @@
+/************************************************
+	Styles pour le WebPart du calendrier des événements.
+************************************************/
+
+.calJourSemaine
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #e0e8ed;
+	background-color: #9c969b;
+	text-align: center;
+	height: 17px;
+}
+
+.calLienMoisPrecedentSuivant
+{
+	font-weight: bold;
+	font-size: 9px;
+	color: blue;
+	color: #3f718f;
+	text-decoration: none;
+}
+
+.calNomMois
+{
+	font-weight: bold;
+	font-size: 11px;
+	vertical-align: top;
+	color: #cf1e00;
+	color: #D13D17;
+	padding: 3px;
+	padding-top: 7px;
+	height: 22px;
+	width: 400px;
+	white-space: nowrap;
+}
+
+.calTdMoisPrecedent
+{
+	padding: 3px;
+	padding-top: 9px;
+	vertical-align: top;
+	text-align: right;
+}
+
+.calTdMoisSuivant
+{
+	vertical-align: top;
+	padding: 3px;
+	padding-top: 9px;
+	text-align: left;
+}
+
+.calJour, .calJourSelectionne
+{
+	font-size: 11px;
+	color: #908d90;
+	height: 18px;
+	background-color: #eceef0;
+	border: 1px solid #dee0e2;
+	text-align: center;
+	
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.calJourSelectionne
+{
+	font-weight: bold;
+	color: #225c7e;
+	background-color: white;
+}
+
+.calAujourdhui
+{
+	font-weight: bold;
+	color: red;
+}
+
+.calEvenement
+{
+	font-weight: bold;
+	color: #215b7e;
+	font-size: 17px;
+	padding-bottom: 12px;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.calDescEvenement
+{
+	font-size: 9px;
+	color: #404040;
+}
+
+.calTdDateEvenement
+{
+	font-size: 11px;
+	vertical-align: top;
+	color: #215b7e;
+	padding-top: 3px;
+	width: 1px;
+	white-space: nowrap;
+}
+
+.calTdTitreEvenement
+{
+	font-size: 11px;
+	vertical-align: top;
+	width: 200px;
+	padding-top: 3px;
+}
+
+.calTableEvenements
+{
+	padding: 0px;
+	width: 225px;
+	font-size: 10px;
+}
+
+.calTableEvenements * IMG
+{
+	margin-top: 3px;
+}
+
+.calDivPrincipal
+{
+	border: #9ca2a5 2px solid;
+	width: 175px;
+	font-family: arial;
+	background-color: #e0e8ed;
+	padding: 5px;
+}
+
+.calLienEvenement
+{
+	font-family: Arial;
+}
+
+
+.carreCouleur
+{
+	width: 7px;
+	height: 7px;
+	margin-right: 3px;
+	padding-top: 100px;
+	background-color: white;
+	color: #225c7e;
+	font-size: 11px;
+	padding: 1px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.carreCouleur_AUTR, .carreCouleur_JPOR
+{
+	border: 2px solid #336AB8;
+}
+
+.jourSelectionne_AUTR, .jourSelectionne_JPOR
+{
+	border: 2px solid #336AB8;
+}
+
+.carreCouleur_AACA
+{
+	border: 2px solid #E72ABD;
+}
+
+.jourSelectionne_AACA
+{
+	border: 2px solid #E72ABD;
+}
+.carreCouleur_ASCO
+{
+	border: 2px solid #FF7900;
+}
+
+.jourSelectionne_ASCO
+{
+	border: 2px solid #FF7900;
+}
+
+.carreCouleur_JLIM
+{
+	border: 2px solid #994BB0;
+}
+
+.jourSelectionne_JLIM
+{
+	border: 2px solid #994BB0;
+}
+
+.carreCouleur_JPED, .carreCouleur_JCON, .carreCouleur_JREL, .carreCouleur_JRES, .carreCouleur_JGRE
+{
+	border: 2px solid #43B81E;
+}
+
+.jourSelectionne_JPED, .jourSelectionne_JCON, .jourSelectionne_JREL, .jourSelectionne_JRES, .jourSelectionne_JGRE
+{
+	border: 2px solid #43B81E;
+}
+
+.carreCouleur_JFER
+{
+	border: 2px solid #507436;
+}
+
+.jourSelectionne_JFER
+{
+	border: 2px solid #507436;
+}
+
+.carreCouleur_DEBS, .carreCouleur_FINS
+{
+	border: 2px solid #BD1A1A;
+}
+
+.jourSelectionne_DEBS, .jourSelectionne_FINS
+{
+	border: 2px solid #BD1A1A;
+}
+ .carreCouleur_FINC
+{
+	border: 2px solid #BD7E7E;
+}
+ .jourSelectionne_FINC
+{
+	border: 2px solid #BD7E7E;
+}
+
+.carreCouleur_JEXA,  .carreCouleur_JEUF
+{
+	border: 2px solid #33A1B8;
+}
+.jourSelectionne_JEXA, .jourSelectionne_JEUF
+{
+	border: 2px solid #33A1B8;
+}
+
+.carreCouleur_JLUN, .carreCouleur_JMAR, .carreCouleur_JMER, .carreCouleur_JJEU, .carreCouleur_JVEN
+{
+	border: 2px solid #FCBA05;
+}
+
+.jourSelectionne_JLUN, .jourSelectionne_JMAR, .jourSelectionne_JMER, .jourSelectionne_JJEU, .jourSelectionne_JVEN
+{
+	border: 2px solid #FCBA05;
+}

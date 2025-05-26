@@ -1,0 +1,19 @@
+.tb-old-liens { display: none; }
+
+header #headerFixedBar nav a.headerNavbarLink.lien-accueil-service {
+	margin-left: 28px;
+	border-right: 1px solid #e8e8e8;
+}
+
+header a:hover {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+	.tdBackgroundHead {
+		background: none !important;
+	}
+	.tdBackgroundHead > table {
+		height: 56px;
+	}
+}
